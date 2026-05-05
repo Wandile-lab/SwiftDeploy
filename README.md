@@ -33,6 +33,11 @@ SwiftDeploy is a custom CLI tool designed to automate the lifecycle of a contain
 
 ## Subcommand Walkthrough
 
+### Prerequisites
+```
+sudo apt install net-tools
+```
+
 ### 1. Initialization
 
 Generates nginx.conf and docker-compose.yml based on the current manifest.
