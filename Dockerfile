@@ -27,7 +27,7 @@ RUN mkdir -p /app/logs && chown -R appuser:appuser /app
 ENV PATH=/home/appuser/.local/bin:$PATH
 USER 1001
 
-# The port is injected via docker-compose, but we document it here
+#  port is injected via docker-compose
 EXPOSE 3000
 
 CMD ["python", "main.py"]
